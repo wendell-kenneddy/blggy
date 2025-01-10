@@ -6,7 +6,7 @@ import { ThemeButton } from "../theme-button";
 export function Header() {
   return (
     <Center w="full" h={64} bg="dark">
-      <Flex w="100%" maw={720} align="center" justify="space-between">
+      <Flex w="100%" maw={1024} align="center" justify="space-between">
         <Link href="/" style={{ display: "flex", alignItems: "center" }}>
           <Image src="/logo.png" width={43} height={16} alt="Logo" />
         </Link>
