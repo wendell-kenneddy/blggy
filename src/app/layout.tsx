@@ -9,6 +9,8 @@ import {
 } from "@mantine/core";
 import { Header } from "@/components/header";
 
+import "@mantine/tiptap/styles.css";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,7 +28,7 @@ export default function RootLayout({
 
           <Space h="xl" />
 
-          <Container fluid p={0} maw={720}>
+          <Container fluid p={0} maw={1024}>
             {children}
           </Container>
         </MantineProvider>
